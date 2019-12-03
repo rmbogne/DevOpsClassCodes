@@ -82,7 +82,7 @@ public class TestLogger {
 				finally { 
 						LOG.info(s);
 						System.out.println("***** "+s); 
-						assert(s.contains("TEST MESSAGE"));  
+						assert(s.contains("TEST MESSAGE here"));  
 
 				}
         }
